@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="App.js"></script>
+</head>
+<body>
+      <div class="flex-container">
+        <div><h2><span id="hour">0</span> <br> HOUR </h2>  <!--hour--></div>
+        <div><h2><span id="minute">0</span> <br> MINUTE </h2>  <!--minute--></div>
+        <div><h2><span id="second">0</span> <br> SECOND </h2>  <!--second--></div>
+        <div><h2 id="ms"><span id="milisec">0</span> <br> MILI-SECONDS </h2>  <!--miliSec--></div>
+      </div>
+      <div class="flex-container">
+        <div><button onclick="start(), disableButton(this)" id="btn">START</button></div>
+        <div><button onclick="stop()">STOP</button></div>
+        <div><button onclick="reset()">RESET</button></div>
+      </div>
+      <div class="flex-container">
+        <p>© SALMAN RAFIQ CHOTTANI -- WM10022</p>
+      </div>
+</body>
+</html>
